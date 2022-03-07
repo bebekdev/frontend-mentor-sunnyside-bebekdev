@@ -24,6 +24,12 @@ module.exports = {
       gridTemplateRows: {
         '2cs': 'repeat',
       },
+      gridTemplateColumns: {
+        '2csd': '1fr 1fr',
+      },
+      screens: {
+        'custom': '864px',
+      },
     },
   },
   plugins: [],
