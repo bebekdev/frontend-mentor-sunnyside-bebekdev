@@ -14,7 +14,7 @@
 </head>
 <body class="text-lg">
 
-    <header class="h-screen bg-fixed bg-cover 
+    <header class="h-screen bg-fixed bg-cover
     bg-[url('/src/img/mobile/image-header.jpg')] bg-center
     sm:bg-[url('/src/img/desktop/image-header.jpg')] sm:bg-center 
     md:bg-[url('/src/img/desktop/image-header.jpg')] md:bg-center 
@@ -26,7 +26,7 @@
                 </a>
                 <button id="toggle-btn" class="toggle-btn md:hidden">
                     <img src="/src/img/icon-hamburger.svg" alt="icon-hamburger" class="hamburger-icon">
-                </button>
+                </button>   
                 <div id="navbar-collapse" class="hidden w-[90%] md:hidden font-barlow font-semibold text-2xl text-grayish-b bg-white z-50 absolute top-28 py-12">
                     <div class="absolute border-t-[15px] border-t-transparent border-r-[15px] border-r-white border-b-[15px] border-b-white border-l-[15px] border-l-transparent -top-[30px] right-0"></div>
                     <ul class="flex flex-col items-center space-y-11">
@@ -36,7 +36,6 @@
                         <li class="bg-yellow text-vd-desaturated-b py-4 px-8 rounded-full font-fraunces text-xl"><a href="#">CONTACT</a></li>
                     </ul>
                 </div>
-    
                 <div id="navbar" class="hidden md:contents">
                     <ul class="text-white font-barlow font-semibold flex justify-between space-x-12 text-base items-center">
                         <li><a href="#">About</a></li>
@@ -52,7 +51,7 @@
             </div>
     </header>   
     
-    <main>
+    <main class="max-w-[1440px] mx-auto">
         <section id="content-mobile" class="md:hidden">
             <div class="transform grid grid-rows-2cs sm:grid-rows-2">
                 <img src="/src/img/mobile/image-transform.jpg" alt="image-transform">

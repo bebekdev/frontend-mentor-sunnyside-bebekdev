@@ -6,3 +6,4 @@ function navToggle() {
     const toggleBtn = document.getElementById("navbar-collapse")
     toggleBtn.classList.toggle("hidden");
 }
+
